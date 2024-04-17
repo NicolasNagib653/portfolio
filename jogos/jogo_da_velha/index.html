@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="esconder()">
+    <main>
+        <div id="nomeJogadores">
+            <h1>Insira o nome dos jogadores</h1>
+            <div class="boxJogadores">
+                <label for="jogador1">Jogador1:</label>
+                <input type="text" id="jogador1">
+            </div>
+
+            <div class="boxJogadores">
+                <label for="jogador2">Jogador2:</label>
+                <input type="text" id="jogador2">
+            </div>
+
+            <button onclick="comecar()">Começar o jogo</button>
+        </div>
+        <div id="tabuleiro">
+            <div class="box" onclick="movimento(1)"></div>
+            <div class="box" onclick="movimento(2)"></div>
+            <div class="box" onclick="movimento(3)"></div>
+            <div class="box" onclick="movimento(4)"></div>
+            <div class="box" onclick="movimento(5)"></div>
+            <div class="box" onclick="movimento(6)"></div>
+            <div class="box" onclick="movimento(7)"></div>
+            <div class="box" onclick="movimento(8)"></div>
+            <div class="box" onclick="movimento(9)"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
