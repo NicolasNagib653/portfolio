@@ -60,7 +60,7 @@ function vitoria() {
             vitoria.style.display = "block"
             visor.innerHTML = `O ${nome1.value} ganhou!`
         }, 300)
-    } else
+    }
     if((tabuleiro[0] == "o" && tabuleiro[3] == "o" && tabuleiro[6] == "o")||
        (tabuleiro[1] == "o" && tabuleiro[4] == "o" && tabuleiro[7] == "o")||
        (tabuleiro[2] == "o" && tabuleiro[5] == "o" && tabuleiro[8] == "o")||
