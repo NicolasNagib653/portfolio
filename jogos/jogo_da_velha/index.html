@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da velha</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="esconder()">
+
+<body>
     <main>
         <div id="nomeJogadores">
             <h1>Insira o nome dos jogadores</h1>
@@ -22,18 +24,24 @@
 
             <button onclick="comecar()">Começar o jogo</button>
         </div>
-        <div id="tabuleiro">
-            <div class="box" onclick="movimento(1)"></div>
-            <div class="box" onclick="movimento(2)"></div>
-            <div class="box" onclick="movimento(3)"></div>
-            <div class="box" onclick="movimento(4)"></div>
-            <div class="box" onclick="movimento(5)"></div>
-            <div class="box" onclick="movimento(6)"></div>
-            <div class="box" onclick="movimento(7)"></div>
-            <div class="box" onclick="movimento(8)"></div>
-            <div class="box" onclick="movimento(9)"></div>
+        <div id="tabuleiro" style="display: none;">
+            <div class="box bdtn bdln" onclick="movimento(1)"></div>
+            <div class="box bdtn"      onclick="movimento(2)"></div>
+            <div class="box bdtn bdrn" onclick="movimento(3)"></div>
+            <div class="box bdln"      onclick="movimento(4)"></div>
+            <div class="box"           onclick="movimento(5)"></div>
+            <div class="box bdrn"      onclick="movimento(6)"></div>
+            <div class="box bdbn bdln" onclick="movimento(7)"></div>
+            <div class="box bdbn"      onclick="movimento(8)"></div>
+            <div class="box bdbn bdrn" onclick="movimento(9)"></div>
+        </div>
+
+        <div id="vitoria" style="display: none;">
+            <h1 id="visor"></h1>
+            <button onclick="jogardnv()">Jogar novamente</button>
         </div>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
