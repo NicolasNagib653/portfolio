@@ -1,0 +1,31 @@
+passo a passo loja Nagib:
+
+1. Homepage:
+	titulo do site
+	Navbar
+	 links:
+	  home
+	  loja
+	  sobre
+	  ajuda
+	Corpo
+     banner(3 itens pelo menos)
+     alguns itens da loja
+     um pouco sobre o projeto
+	Rodapé
+     links de acesso rápido:
+      home
+      loja
+      sobre
+      ajuda
+
+2. loja:
+    todos os itens da  loja organizados
+
+3. sobre:
+    um texto contando sobre o projeto
+4. ajuda:
+    Uma página com informações telefonicas e formulário para ajuda
+
+5. utilizar banco de dados para gerenciamento dos produtos
+6. utilizar banco de dados para guardae informações dos clientes
